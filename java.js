@@ -27,7 +27,7 @@ console.log(userdata)
         console.log(resolve.userdata);
       })
       .catch((error) => {
-        messege.innerHTML = error.messege;
+        messege.innerHTML = error.massege;
         messege.style.color = "red";
         messege.style.fontSize="20px";
 
