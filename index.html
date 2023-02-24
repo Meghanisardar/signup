@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>firebase</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-auth.js"></script>
+   <script>
+   const firebaseConfig = {
+    apiKey: "AIzaSyDZet4GbLNmtygo-691F2SZqwK8eOkNv5M",
+    authDomain: "firstproject-ca423.firebaseapp.com",
+    projectId: "firstproject-ca423",
+    storageBucket: "firstproject-ca423.appspot.com",
+    messagingSenderId: "714318032769",
+    appId: "1:714318032769:web:7573bf7df083f0cfa58280",
+    measurementId: "G-S8NZMDQ166"
+  };
+ firebase.initializeApp(firebaseConfig);
+  </script> 
+</head>
+<body>
+
+<div id="maindiv">
+  <div class="div">
+    <input type="email" name="" id="email" placeholder="Enter Email">
+    <div class="mainpassbtn">
+      <input type="password" name="" id="password" placeholder="Enter Password">
+<button id="showwbtn" onclick="passbtn()"> Show</button>
+    </div>
+    <p id="messege"></p>
+    <button id="button" onclick="signup()">Sign Up</button>
+  </div>
+
+</div>
+
+  <script src="./java.js"></script>
+</body>
+</html>
