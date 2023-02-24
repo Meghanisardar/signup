@@ -22,11 +22,15 @@ console.log(userdata)
       .then((resolve) => {
         messege.innerHTML = "Signup succsesfully ";
         messege.style.color = "green";
+        messege.style.fontSize="20px";
+        messege.style.fontWeight="bold";
         console.log(resolve.userdata);
       })
       .catch((error) => {
         messege.innerHTML = error.messege;
         messege.style.color = "red";
+        messege.style.fontSize="20px";
+
       });
   }
 }
